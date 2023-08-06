@@ -1,0 +1,7 @@
+﻿D:\Visual Studio\IDE\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  cgi.cpp
+D:\Desktop\Share\HTTP\HTTP\cgi.cpp(37,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\cgi.cpp(55,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\cgi.cpp(57,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\cgi.cpp(59,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  vgi.vcxproj -> D:\Desktop\Share\HTTP\HTTP\htdocs\cgi.exe

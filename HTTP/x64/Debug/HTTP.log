@@ -1,0 +1,47 @@
+﻿D:\Visual Studio\IDE\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  YYServer.cpp
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Desktop\Share\HTTP\HTTP\YYServer.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(23,16): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(23,16): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(319,9): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(386,15): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(395,35): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(610,41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(612,41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(614,41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(616,41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(618,41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(620,41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(622,41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(624,41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(630,58): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(634,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(654,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(656,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(659,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(674,55): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(678,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(698,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(703,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(706,53): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(717,13): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(725,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“__int64”
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(725,9): message : 请考虑在格式字符串中使用“%lld”
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(725,9): message : 请考虑在格式字符串中使用“%Id”
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(725,9): message : 请考虑在格式字符串中使用“%I64d”
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(734,24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(826,64): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(829,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(755,6): warning C4101: “status”: 未引用的局部变量
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(751,6): warning C4101: “pid”: 未引用的局部变量
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(955,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(957,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(959,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(961,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(963,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(972,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(974,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(976,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Desktop\Share\HTTP\HTTP\YYServer.cpp(978,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  HTTP.vcxproj -> D:\Desktop\Share\HTTP\HTTP\HTTP.exe
