@@ -786,13 +786,18 @@ void YYServer::execute_cgi(int client, string path, string method, string query_
 	cmd = replaceStr(cmd, "%2B", "+");
 	stringstream ss(cmd);
 	while (getline(ss, cmd, '&')) cmds.push_back(cmd);
-	char **arg = new char* [cmds.size() + 1];
+	char* argv[cmds.size() + 1];
+
 	for (int i = 0; i < cmds.size(); i++)
-		arg[i] = (char*)cmds[i].c_str();
-	arg[cmds.size()] = NULL;
+	{
+		argv[i] = (char*)cmds[i].c_str();
+		cout << argv[i];
+	}
+		
+	argv[cmds.size()] = NULL;
 
 
-
+	
 #ifdef _WIN32
 	HANDLE cgi_output[2];
 
@@ -819,8 +824,6 @@ void YYServer::execute_cgi(int client, string path, string method, string query_
 		
 	}
 	cmd = replaceStr(cmd,"/","\\");
-	cout << cmd;
-
 	//必须要将执行命令转化为双字节字符串
 	char* ptr = (char*)cmd.c_str();
 	int pSize = MultiByteToWideChar(CP_OEMCP, 0, ptr, strlen(ptr) + 1, NULL, 0);
@@ -910,10 +913,10 @@ void YYServer::execute_cgi(int client, string path, string method, string query_
 				sprintf(length_env, "CONTENT_LENGTH=%d", content_length);
 				putenv(length_env);
 			}
-			cout << "11111" << endl;
 			
-			execv(path.c_str(), arg);
-			cout << "paaaaa" << endl;
+			
+			execv(path.c_str(), argv);
+		
 			close(cgi_output[1]);
 			close(cgi_input[0]);
 			exit(0);
@@ -939,7 +942,7 @@ void YYServer::execute_cgi(int client, string path, string method, string query_
 
 
 #endif
-		delete[] arg;
+		
 	
 }
 
